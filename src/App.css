@@ -1,0 +1,207 @@
+:root {
+  box-sizing: border-box !important;
+}
+
+.homepage, .about, .projects {
+  margin-top: 5rem;
+}
+
+/* Navbar */
+nav {
+  position: fixed;
+  top: 0;
+}
+
+nav ul li *{
+  font-size: 1.2rem !important;
+  color: black !important;
+}
+
+nav .logo {
+  height: 4rem;
+  width: 4rem;
+}
+
+/* Footer */
+footer {
+  height: 6rem;
+  background-color: rgb(235, 235, 241);
+  padding: 2rem 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.contact-container {
+  display: flex;
+  gap:1.5rem;
+  justify-content: center;
+}
+
+.contact-container .contact-icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+
+/* Homepage */
+.homepage .left {
+  margin-bottom: 3rem;
+  
+}
+
+.homepage .left .top {
+  font-size: 1.8rem;
+}
+
+.homepage .left .middle {
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+
+.homepage .left .middle span{
+  
+}
+
+.homepage .left .bottom {
+  font-size: 2.7rem;
+  font-weight: 700;
+}
+
+.homepage .left .btn-wrapper button{
+  font-size: 1.2rem;
+  border-radius: 1.5rem;
+  height: 3.5rem;
+  font-weight: 500;
+}
+
+.homepage .left .btn-wrapper {
+  margin-top: 1rem;
+}
+
+.homepage {
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  /* width: min(95%, 1150px); */
+}
+
+.homepage .right {
+  
+}
+
+.homepage .right img {
+  border-radius: 2rem;
+  max-height: 380px;
+}
+
+/* About Page */
+.about .profile-image img{
+  height: 10rem;
+  width: 10rem;
+}
+
+.about .header{
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin: 1.4rem 0;
+}
+
+.about h5, .about h6{
+  font-weight: 500;
+}
+
+.about h6 {
+  font-size: 1.4rem;
+}
+
+.about .skills h5 {
+  font-weight: 700;
+}
+
+.about .divider {
+  height: .15rem
+}
+
+.about .description-paragraph {
+  font-size: 1.2rem;
+}
+.about .skill-section {
+  margin-bottom: 2.5rem ;
+}
+.about .skill-section .icons-wrapper {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.about .skill-section .icons-wrapper img{
+  height: 4rem;
+  width: 4rem;
+}
+
+.about .contact-container {
+  justify-content: flex-start;
+}
+
+/* Projects Page */
+.projects h4 {
+  font-weight: 700;
+}
+
+.projects .right h4 {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.projects .projects-section {
+  margin-bottom: 3rem;
+}
+
+.projects .projects-section img{
+  border: solid .2pt gainsboro;
+}
+
+.projects .projects-section p {
+  font-size: 1.2rem;
+}
+
+.projects .project-link-container{
+  display: flex;
+  gap: 1.8rem;
+}
+
+.projects .live-btn, .projects .code-btn {
+  background-color: white;
+  border: solid 2px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.projects .live-btn {
+  border-color: rgba(21, 21, 150, 0.862);
+  color: rgba(21, 21, 150, 0.862);
+}
+
+.projects .live-btn:hover {
+  background-color: rgba(21, 21, 150, 0.862);
+  color: white;
+  transition: all 250ms ease 0s;
+}
+
+.projects .code-btn:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.771);
+  transition: all 250ms ease 0s;
+  border-color: rgba(0, 0, 0, 0.771);
+}
+
+@media ( max-width: 992px ) {
+  .homepage .left *{
+    text-align: center;
+    
+  }
+}
