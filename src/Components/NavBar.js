@@ -9,7 +9,7 @@ export default function NavBar() {
         <ul id="nav-mobile" className="right">
           <li><Link to='/about'>About</Link></li>
           <li><Link to='/projects'>Projects</Link></li>
-          <li><Link to='/resume'>Resume</Link></li>
+          <li><a href='https://drive.google.com/file/d/1HPjbjfKz0IhNYoegrDSJeXg_n9CJj6Z9/view?usp=sharing' target='_blank' rel="noopener noreferrer">Resume</a></li>
         </ul>
       </div>
     </nav>
